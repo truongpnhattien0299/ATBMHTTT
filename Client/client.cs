@@ -25,8 +25,8 @@ namespace Client
         {
             InitializeComponent();
 
-            lvMessage.Columns.Add("Name", 88);
-            lvMessage.Columns.Add("Content", 250);
+            lvMessage.Columns.Add("Tên", 88);
+            lvMessage.Columns.Add("Nội dung", 250);
 
             Connect();
             //arrData = new ArrayList();

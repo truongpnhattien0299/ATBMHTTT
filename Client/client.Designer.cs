@@ -95,7 +95,7 @@ namespace Client
             // 
             this.plainText.Location = new System.Drawing.Point(17, 221);
             this.plainText.Name = "plainText";
-            this.plainText.PlaceholderText = "Content";
+            this.plainText.PlaceholderText = "Nội dung";
             this.plainText.Size = new System.Drawing.Size(288, 23);
             this.plainText.TabIndex = 0;
             // 
@@ -105,7 +105,7 @@ namespace Client
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(96, 52);
             this.btnSend.TabIndex = 1;
-            this.btnSend.Text = "Send";
+            this.btnSend.Text = "Gửi";
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
@@ -126,7 +126,7 @@ namespace Client
             // 
             this.txtName.Location = new System.Drawing.Point(17, 192);
             this.txtName.Name = "txtName";
-            this.txtName.PlaceholderText = "Name";
+            this.txtName.PlaceholderText = "Tên người gửi";
             this.txtName.Size = new System.Drawing.Size(288, 23);
             this.txtName.TabIndex = 0;
             // 
@@ -150,7 +150,7 @@ namespace Client
             this.Tab_Create_Key.Padding = new System.Windows.Forms.Padding(3);
             this.Tab_Create_Key.Size = new System.Drawing.Size(425, 471);
             this.Tab_Create_Key.TabIndex = 1;
-            this.Tab_Create_Key.Text = "Create Key";
+            this.Tab_Create_Key.Text = "Tạo khóa";
             this.Tab_Create_Key.UseVisualStyleBackColor = true;
             // 
             // groupBox2
@@ -351,7 +351,7 @@ namespace Client
             this.Chat.Padding = new System.Windows.Forms.Padding(3);
             this.Chat.Size = new System.Drawing.Size(425, 471);
             this.Chat.TabIndex = 0;
-            this.Chat.Text = "Chat";
+            this.Chat.Text = "Kiểm tra chữ ký";
             this.Chat.UseVisualStyleBackColor = true;
             // 
             // groupBox6
@@ -384,7 +384,7 @@ namespace Client
             this.btnKiemTra.Name = "btnKiemTra";
             this.btnKiemTra.Size = new System.Drawing.Size(149, 36);
             this.btnKiemTra.TabIndex = 1;
-            this.btnKiemTra.Text = "Kiêm tra";
+            this.btnKiemTra.Text = "Kiểm tra";
             this.btnKiemTra.UseVisualStyleBackColor = true;
             this.btnKiemTra.Click += new System.EventHandler(this.btnKiemTra_Click);
             // 
@@ -497,7 +497,7 @@ namespace Client
             this.ClientSize = new System.Drawing.Size(437, 499);
             this.Controls.Add(this.tabControl1);
             this.Name = "client";
-            this.Text = "client";
+            this.Text = "Client";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.client_FormClosed);
             this.tabControl1.ResumeLayout(false);
             this.Tab_Create_Key.ResumeLayout(false);
